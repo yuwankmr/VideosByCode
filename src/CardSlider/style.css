@@ -1,0 +1,32 @@
+.card {
+	box-shadow: rgba(0, 0, 0, 0.514) 8px 10px 10px 5px;
+}
+
+/* .card:before,
+.card {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.card:after {
+	filter: blur(50px);
+} */
