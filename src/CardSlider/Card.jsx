@@ -8,7 +8,7 @@ export const Card = (param) => {
 			height: `${config.card_height}px`,
 			width: `${config.card_width}px`,
 			objectFit: 'cover',
-			background: 'pink',
+			background: 'lightblue',
 			WebkitBoxReflect:
 				'below 2px linear-gradient(transparent, transparent, #0004)',
 			transformOrigin: 'center',
@@ -23,16 +23,17 @@ export const Card = (param) => {
 			// opacity: param.rotation == 0 ? 1 : 0.5,
 		},
 		img: {
-			objectFit: 'contain',
-			width: '1000px',
-			height: 'auto',
-			boxShadow: '10px 10px 20px black',
+			objectFit: 'cover',
+			width: '800px',
+			height: '500px',
+			// maxHeight: '500px',
+			// boxShadow: '10px 10px 20px black',
 			borderRadius: 12,
 			marginTop: '100px',
 			// border: '10px solid black',
 		},
 		value: {
-			fontSize: 80,
+			fontSize: 70,
 			fontWeight: 'bolder',
 			color: 'white',
 			background: 'maroon',
@@ -40,9 +41,10 @@ export const Card = (param) => {
 			paddingBottom: '40px',
 			margin: '0 0 -50px',
 			borderRadius: '24px 24px 0 0',
+			height: '150px',
 		},
-		value_key: {
-			fontSize: 70,
+		title: {
+			fontSize: 60,
 			margin: '70px 0',
 			textTransform: 'Uppercase',
 			padding: '0 10px',
@@ -99,9 +101,9 @@ export const Card = (param) => {
 				</span>
 			</div>
 			<div style={styles.card} className={'card'}>
-				<div style={styles.value}>${param.value}M</div>
+				<div style={styles.value}>{param.value}</div>
 				<img style={styles.img} src={param.img} />
-				<div style={styles.value_key}>{param.title}</div>
+				<div style={styles.title}>{param.title}</div>
 			</div>
 		</div>
 	);

@@ -114,6 +114,9 @@ export const Card = (param) => {
 				></img>
 			)}
 			<span className="position">{param.position} </span>
+			{param.location !== undefined ? (
+				<img className="location-position" src={param.location}></img>
+			) : null}
 			<div className="container">
 				<div className="box">
 					<div className="title">

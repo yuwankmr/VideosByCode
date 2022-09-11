@@ -28,14 +28,14 @@ export const Content = () => {
 				gap: `${config.card_gap}px`,
 				margin: `0 ${config.screen_width}px`,
 				transform: `translateX(-${tranformX}px)`,
-				background: 'gold',
+				// background: 'gold',
 			}}
 		>
 			{Object.keys(data).map((key_val, i) => (
 				<Card
 					rotation={rotation_start == i || rotation_end == i ? 0 : 25}
 					position={Object.keys(data).length - i}
-					title={data[key_val].Name}
+					title={data[key_val].name}
 					value={data[key_val].price}
 					img={data[key_val].image}
 				/>

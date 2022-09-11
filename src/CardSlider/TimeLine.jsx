@@ -4,7 +4,7 @@ import {Title} from './Title';
 
 export const HelloWorld = ({titleText, titleColor}) => {
 	return (
-		<div style={{flex: 1, backgroundColor: 'gold'}}>
+		<div style={{flex: 1, backgroundColor: 'white'}}>
 			<div>
 				<Sequence from={0}>
 					<Title titleText={titleText} titleColor={titleColor} />

@@ -7,7 +7,7 @@ import {Title} from './Title';
 
 export const HelloWorld = ({titleText, titleColor}) => {
 	useEffect(() => {
-		const imagesPreload = [...data.map((t) => t.image)];
+		const imagesPreload = [...data.map((t) => t.img)];
 		imagesPreload.forEach((image) => {
 			const newImage = new Image();
 			newImage.src = image;
@@ -21,8 +21,8 @@ export const HelloWorld = ({titleText, titleColor}) => {
 					<Title
 						titleText={
 							<h1>
-								TOP 40
-								<br></br> Most Expensive Books <br></br> IN THIS PLANET.
+								The Top 25
+								<br></br> Ugliest Animals <br></br> on Earth
 							</h1>
 						}
 					/>
@@ -35,9 +35,10 @@ export const HelloWorld = ({titleText, titleColor}) => {
 					>
 						<Card
 							position={Object.keys(data).length - i}
-							title={data[key_val].name}
-							value={data[key_val].price}
-							img={data[key_val].image}
+							title={data[key_val].title}
+							value={data[key_val].value}
+							img={data[key_val].img}
+							location={data[key_val].location}
 						/>
 					</Sequence>
 				))}
@@ -47,13 +48,7 @@ export const HelloWorld = ({titleText, titleColor}) => {
 					}
 					durationInFrames={config.fps * 10}
 				>
-					<Title
-						titleText={
-							<h1>
-								Thanks For <br></br> Watching!
-							</h1>
-						}
-					/>
+					<Title titleText={<h1>Thanks For Watching!</h1>} />
 				</Sequence>
 			</div>
 		</div>
