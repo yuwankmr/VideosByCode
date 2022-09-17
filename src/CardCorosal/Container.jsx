@@ -6,16 +6,6 @@ import {config} from './config';
 export const Content = () => {
 	const frame = useCurrentFrame();
 	const tranformX = frame * 8;
-	const rotation_start = Math.floor(
-		(frame - config.card_width / config.translate_x_per_frame) /
-			((config.card_width + config.card_gap) / config.translate_x_per_frame)
-	);
-	const rotation_end = Math.floor(
-		(frame -
-			config.card_width / config.translate_x_per_frame -
-			(config.card_width + config.card_gap) / config.translate_x_per_frame) /
-			((config.card_width + config.card_gap) / config.translate_x_per_frame)
-	);
 	return (
 		<div
 			style={{
@@ -23,8 +13,19 @@ export const Content = () => {
 				margin: `0 ${config.screen_width}px`,
 				transform: `translateX(-${tranformX}px)`,
 				background: 'white',
+				borderLeft: '10px solid black',
 			}}
 		>
+			<div
+				style={{
+					width: 1200 * (data.length - 1),
+					left: 600,
+					height: 10,
+					background: 'black',
+					position: 'absolute',
+					top: 70,
+				}}
+			></div>
 			{Object.keys(data).map((key_val, i) => {
 				return (
 					<Card

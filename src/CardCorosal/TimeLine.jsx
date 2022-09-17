@@ -1,10 +1,10 @@
 import {useEffect} from 'react';
-import {Sequence} from 'remotion';
+import {AbsoluteFill, Sequence, Video} from 'remotion';
 import {data} from '../data';
-import {Card} from './Card';
 import {config} from './config';
 import {Content} from './Container';
-import {Title} from './Title';
+import './style.css';
+// import endcard from '../assets/endcard.mp4';
 
 export const HelloWorld = () => {
 	useEffect(() => {
@@ -16,17 +16,31 @@ export const HelloWorld = () => {
 		});
 	}, []);
 	return (
-		<div style={{flex: 1, backgroundColor: 'white'}}>
+		<div style={{flex: 1, backgroundColor: '#d2311f'}}>
 			<div>
-				<Sequence from={0} durationInFrames={config.fps * config.slideduration}>
-					<Title
-						titleText={
-							<h1>
-								The Evalution
-								<br></br> of iPhones <br></br> 2007 - 2022
-							</h1>
-						}
-					/>
+				<Sequence
+					from={0}
+					durationInFrames={config.fps * config.slideduration * 2}
+				>
+					<h1
+						className="title"
+						style={{
+							width: config.screen_width,
+							height: config.screen_height,
+							background: 'white',
+							padding: 10,
+							fontFamily: 'Poppins',
+							fontSize: 150,
+							fontWeight: 'bold',
+							textAlign: 'center',
+							display: 'flex',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textTransform: 'uppercase',
+						}}
+					>
+						The Evolution of Samsung Phones
+					</h1>
 				</Sequence>
 				<Sequence
 					from={0}
@@ -37,10 +51,98 @@ export const HelloWorld = () => {
 					<Content />
 				</Sequence>
 				<Sequence
-					from={config.slideduration * config.fps * (data.length - 3)}
-					durationInFrames={config.fps * 20}
+					from={config.slideduration * config.fps * (data.length - 3) - 50}
+					durationInFrames={config.fps * 15}
 				>
-					<Title titleText={<h1>Thanks For Watching!</h1>} />
+					{/* <AbsoluteFill>
+						<Video src={endcard} />
+					</AbsoluteFill> */}
+					{/* <h1
+						style={{
+							width: config.screen_width,
+							height: config.screen_height,
+							fontFamily: 'poppins',
+							fontSize: 120,
+							fontWeight: 'bold',
+							textAlign: 'center',
+							display: 'flex',
+							// alignItems: 'center',
+							justifyContent: 'center',
+							textTransform: 'uppercase',
+							backgroundRepeat: 'no-repeat',
+							backgroundSize: '1920px 1080px',
+							// backgroundImage: `url(${endcard})`,
+						}}
+					>
+						<div
+							style={{
+								backgroundColor: 'darkred',
+								width: 500,
+								paddingTop: 120,
+								height: config.screen_height,
+								display: 'flex',
+								flexDirection: 'column',
+								alignItems: 'center',
+								justifyContent: 'center',
+							}}
+						>
+							<div
+								style={{
+									backgroundColor: 'white',
+									height: 300,
+									width: 300,
+									borderRadius: 300,
+								}}
+							></div>
+							<h6 style={{color: 'white'}}>SUBSCRIBE</h6>
+						</div>
+
+						<div
+							style={{
+								backgroundColor: '#222222',
+								width: 1420,
+								height: config.screen_height,
+								display: 'flex',
+								padding: '120px 130px 120px 20px',
+								justifyContent: 'space-between',
+							}}
+						>
+							<div
+								style={{
+									display: 'flex',
+									alignItems: 'center',
+									justifyContent: 'center',
+									textAlign: 'center',
+									paddingRight: 30,
+								}}
+							>
+								<h6 style={{color: 'white'}}>CHECKOUT THESE VIDEOS</h6>
+							</div>
+							<div
+								style={{
+									display: 'flex',
+									flexDirection: 'column',
+									alignItems: 'center',
+									justifyContent: 'space-between',
+								}}
+							>
+								<div
+									style={{
+										backgroundColor: 'white',
+										height: 360,
+										width: 640,
+									}}
+								></div>
+								<div
+									style={{
+										backgroundColor: 'white',
+										height: 360,
+										width: 640,
+									}}
+								></div>
+							</div>
+						</div>
+					</h1> */}
 				</Sequence>
 			</div>
 		</div>

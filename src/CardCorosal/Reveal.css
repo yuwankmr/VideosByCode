@@ -19,21 +19,31 @@ html {
 	align-items: center;
 	justify-content: center;
 	background: 'white';
+	z-index: 100;
+	border-right: 10px solid black;
 }
 .container h1 {
 	font-family: 'Poppins';
 	font-size: 80px;
 	text-align: center;
 }
+.name {
+	background-color: lightblue;
+	width: 100%;
+	color: black;
+	border-top: 10px solid black;
+	/* border-right: 15px solid black; */
+}
 .Value {
-	background-color: black;
+	background-color: yellow;
 	border-radius: 24px;
 	padding: 0 50px;
-	color: white;
-	margin: 10px 0;
+	color: black;
+	border: 10px solid black;
+	margin: 5px 0;
 }
 img {
 	height: 800px;
-	width: auto;
+	max-width: 1000px;
 	object-fit: cover;
 }

@@ -1,24 +1,21 @@
 title,value,img
-iPhone,2007,https://image.cnbcfm.com/api/v1/image/104556364-original-iPhone.jpg
-iPhone 3G,2008,https://i.ebayimg.com/images/g/20cAAOSwPGpafGAP/s-l640.jpg
-iPhone 3GS,2009,https://wpuploads.appadvice.com/wp-content/uploads/2011/01/33-85-iphone3gs_1.jpg
-iPhone 4,2010,https://letsshop.lk/wp-content/uploads/2020/05/apple-iphone-4-1-600x600.jpg
-iPhone 4s,2011,https://m-cdn.phonearena.com/images/phones/31840-940/Apple-iPhone-4s.jpg,
-iPhone 5,2012,https://static.toiimg.com/thumb/resizemode-4,msid-54058229,imgsize-200,width-1200/54058229.jpg
-iPhone 5s,2013,https://livegadgetbd.com/wp-content/uploads/2021/09/iphone-5s.png
-iPhone 5c,2013,https://itstechprice.com/wp-content/uploads/2020/10/Apple-iPhone-5c.png
-iPhone 6/6 Plus,2014,https://img1.exportersindia.com/product_images/bc-full/dir_120/3571163/apple-6-iphone-mobile-2121185.jpg
-iPhone 6s/6s Plus,2015,https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP727/SP727-iphone6s-plus-gold-select-2015.png
-iPhone 7/7 Plus,2016,https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-7/iphone-7-black.jpg
-iPhone 8/8 Plus,2017,https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-8-plus/iphone-8-plus-silver.jpg
-iPhone X,2017,https://www.refurbished.store/cache/images/iphone-x-zwart_600x600_BGresize_16777215-tj.png
-iPhone XR,2018,https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_coral-back_09122018_carousel.jpg.large.jpg
-iPhone Xs/Xs Max,2018,https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-xs-max/iphone-xs-max-gold.jpg
-iPhone 11,2019,https://redlions.lk/wp-content/uploads/2021/10/Apple-iPhone-11-1.jpg
-iPhone 11 Pro/Pro Max,2019,https://static.toiimg.com/thumb/resizemode-4,msid-71186272,imgsize-200,width-1200/71186272.jpg
-iPhone 12/12 mini,2020,https://static.toiimg.com/thumb/resizemode-4,msid-71446518,imgsize-200,width-1200/71446518.jpg
-iPhone 12 Pro/Pro Max,2020,https://res-2.cloudinary.com/grover/image/upload/v1630928826/kgg2bmbmmq9hj5tokpmf.png
-iPhone 13/13 mini,2021,https://static.toiimg.com/thumb/resizemode-4,msid-79058673,imgsize-200,width-1200/79058673.jpg
-iPhone 13 Pro/Pro Max,2021,https://www.tradeinn.com/f/13885/138855063/apple-iphone-13-pro-max-256gb-6.7-smartphone.jpg
-iPhone 14/14 Plus,2022,https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-iPhone-14-Plus-2up-purple-220907_inline.jpg.large.jpg
-iPhone 14 Pro/Pro Max,2022,https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-deep-purple-220907_inline.jpg.large.jpg
+Samsung Galaxy S,2010,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image2-9ciqrhfl4j-jpg.webp?v1
+Samsung Galaxy S II,2011,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image3-cdluyg2xom-jpg.webp?v1
+Samsung Galaxy S III,2012,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image4-i7fwn26cdb-jpg.webp?v1
+Samsung Galaxy S4,2013,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image5-oqftgfn7sp-jpg.webp?v1
+Samsung Galaxy S5,2014,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image6-kulcycfwhj-jpg.webp?v1
+Samsung Galaxy S6,2015,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image7-lcj1yokcb4-jpg.webp?v1
+Samsung Galaxy S6 edge,2015,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image8-xz9ji6u150-jpg.webp?v1
+Samsung Galaxy S7,2016,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image9-prw8sbttee-jpg.webp?v1
+Samsung Galaxy S7 edge,2016,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image10-curembkfxc-jpg.webp?v1
+Samsung Galaxy S8,2017,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image11-om9gzluivi-jpg.webp?v1
+Samsung Galaxy S9,2018,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-feature-from-galaxy-s-to-galaxy-s10-here-s-a-timeline-of-samsung-s-flagship-android-phones-in-pictures-image12-rzxgf6a7ej-jpg.webp?v1
+Samsung Galaxy S10,2019,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-feature-from-galaxy-s-to-galaxy-s10-heres-a-timeline-of-samsungs-flagship-android-phones-in-pictures-image13-bisnxxrufu-jpg.webp?v1
+Samsung Galaxy S20,2020,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-feature-from-galaxy-s-to-galaxy-s20-heres-a-timeline-of-samsungs-flagship-android-phones-in-pictures-image1-y9ae7j0guf-jpg.webp?v1
+Samsung Galaxy S20 Ultra,2020,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-feature-from-galaxy-s-to-galaxy-s20-heres-a-timeline-of-samsungs-flagship-android-phones-in-pictures-image1-aiusrzwxlq-jpg.webp?v1
+Samsung Galaxy S20 FE,2020,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s20-heres-a-timeline-of-samsungs-flagship-android-phones-in-pictures-image18-zpxwf5si3m-jpg.webp?v1
+Samsung Galaxy S21,2021,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s20-heres-a-timeline-of-samsungs-flagship-android-phones-in-pictures-image16-c5kvbmul6a-jpg.webp?v1
+Samsung Galaxy S21 Ultra,2021,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s20-heres-a-timeline-of-samsungs-flagship-android-phones-in-pictures-image17-v0l1bk5o6i-jpg.webp?v1
+Samsung Galaxy S21 FE,2022,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s20-heres-a-timeline-of-samsungs-flagship-android-phones-in-pictures-image19-k86nib0vdp-jpg.webp?v1
+Samsung Galaxy S22,2022,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s20-heres-a-timeline-of-samsungs-flagship-android-phones-in-pictures-image20-1ciakslnwc-jpg.webp?v1
+Samsung Galaxy S22 Ultra,2022,https://cdn.pocket-lint.com/r/s/660x/assets/images/136736-phones-news-feature-from-galaxy-s-to-galaxy-s20-heres-a-timeline-of-samsungs-flagship-android-phones-in-pictures-image21-ftu3o4o7ux-jpg.webp?v1
