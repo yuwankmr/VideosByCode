@@ -18,7 +18,7 @@ export const HelloWorld = () => {
 	return (
 		<div style={{flex: 1, backgroundColor: 'white'}}>
 			<div>
-				<Sequence from={0} durationInFrames={config.fps * (data.length + 10)}>
+				<Sequence from={0} durationInFrames={config.fps * config.slideduration}>
 					<Title
 						titleText={
 							<h1>
@@ -29,7 +29,7 @@ export const HelloWorld = () => {
 					/>
 				</Sequence>
 				<Sequence
-					from={config.fps * data.length}
+					from={0}
 					durationInFrames={
 						config.slideduration * config.fps * (data.length - 3)
 					}
@@ -37,11 +37,8 @@ export const HelloWorld = () => {
 					<Content />
 				</Sequence>
 				<Sequence
-					from={
-						(data.length - 1) * config.fps * config.slideduration +
-						config.fps * 1
-					}
-					durationInFrames={config.fps * 30}
+					from={config.slideduration * config.fps * (data.length - 3)}
+					durationInFrames={config.fps * 20}
 				>
 					<Title titleText={<h1>Thanks For Watching!</h1>} />
 				</Sequence>

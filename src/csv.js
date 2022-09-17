@@ -47,7 +47,7 @@ export const csv = [
 	{
 		title: 'iPhone 6s/6s Plus',
 		value: '2015',
-		img: 'https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP727/SP727-iphone6s-plus-gold-select-2015.png',
+		img: 'https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-6s-plus/iphone-6s-plus-rose-gold.jpg',
 	},
 	{
 		title: 'iPhone 7/7 Plus',

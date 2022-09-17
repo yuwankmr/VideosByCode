@@ -10,7 +10,7 @@ export const RemotionVideo = () => {
 				id="HelloWorld"
 				component={HelloWorld}
 				durationInFrames={Math.round(
-					(Object.keys(data).length + 2) * config.fps * config.slideduration
+					(Object.keys(data).length - 1) * config.fps * config.slideduration
 				)}
 				fps={config.fps}
 				width={config.screen_width}
