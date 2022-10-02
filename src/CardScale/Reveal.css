@@ -41,7 +41,8 @@ html {
 	padding: 0 50px;
 	color: black;
 	border: 10px solid black;
-	margin: 5px 0;
+	margin: 5px auto;
+	width: fit-content;
 }
 img {
 	height: 700px;

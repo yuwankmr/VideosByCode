@@ -2,6 +2,7 @@ import {interpolate, useCurrentFrame} from 'remotion';
 import {data} from '../data';
 import {Card} from './Card';
 import {config} from './config';
+import './Reveal.css';
 
 export const Content = () => {
 	const frame = useCurrentFrame();
@@ -65,18 +66,29 @@ export const Content = () => {
 							width: 960,
 						}}
 					>
-						<div
-							style={{
-								transform: `scale(${scale})`,
-								transformOrigin: 'bottom',
-							}}
-						>
-							<Card
+						{/* <div> */}
+						<div className="container" key={i}>
+							<span
+								style={{
+									transform: `scale(${scale})`,
+									transformOrigin: 'bottom',
+								}}
+							>
+								<h1 className="Value">{data[key_val].value}</h1>
+								<img src={data[key_val].img} alt="..."></img>
+							</span>
+							<h1 className="name">
+								{data[key_val].title.match(/.{1,30}\w/g)[0]}
+								{data[key_val].title.length > 30 && '...'}
+							</h1>
+							{/* </div> */}
+
+							{/* <Card
 								i={key_val}
 								title={data[key_val].title}
 								value={data[key_val].value}
 								img={data[key_val].img}
-							/>
+							/> */}
 						</div>
 					</div>
 				);
