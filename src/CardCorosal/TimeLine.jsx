@@ -16,7 +16,7 @@ export const HelloWorld = () => {
 		});
 	}, []);
 	return (
-		<div style={{flex: 1, backgroundColor: '#d2311f'}}>
+		<div style={{flex: 1, backgroundColor: '#000000'}}>
 			<div>
 				<Sequence
 					from={0}
@@ -27,7 +27,7 @@ export const HelloWorld = () => {
 						style={{
 							width: config.screen_width,
 							height: config.screen_height,
-							background: 'white',
+							background: 'black',
 							padding: 10,
 							fontFamily: 'Poppins',
 							fontSize: 150,
@@ -39,25 +39,19 @@ export const HelloWorld = () => {
 							textTransform: 'uppercase',
 						}}
 					>
-						The Evolution of Samsung Phones
+						The TOP biggest Planets in Our Solar System
 					</h1>
 				</Sequence>
 				<Sequence
 					from={0}
-					durationInFrames={
-						config.slideduration * config.fps * (data.length - 3)
-					}
+					durationInFrames={config.slideduration * config.fps * data.length}
 				>
 					<Content />
 				</Sequence>
-				<Sequence
-					from={config.slideduration * config.fps * (data.length - 3) - 50}
-					durationInFrames={config.fps * 15}
-				>
-					{/* <AbsoluteFill>
-						<Video src={endcard} />
-					</AbsoluteFill> */}
-					{/* <h1
+				{/* <Sequence }
+					from={config.slideduration * config.fps * (data.length - 3) - 0}
+					 durationInFrames={config.fps * 15}
+					 <h1
 						style={{
 							width: config.screen_width,
 							height: config.screen_height,
@@ -142,8 +136,8 @@ export const HelloWorld = () => {
 								></div>
 							</div>
 						</div>
-					</h1> */}
-				</Sequence>
+					</h1> 
+				</Sequence> */}
 			</div>
 		</div>
 	);

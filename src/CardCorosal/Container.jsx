@@ -12,11 +12,11 @@ export const Content = () => {
 				display: 'flex',
 				margin: `0 ${config.screen_width}px`,
 				transform: `translateX(-${tranformX}px)`,
-				background: 'white',
-				borderLeft: '10px solid black',
+				background: 'black',
+				// borderLeft: '10px solid black',
 			}}
 		>
-			<div
+			{/* <div
 				style={{
 					width: 1200 * (data.length - 1),
 					left: 600,
@@ -25,7 +25,7 @@ export const Content = () => {
 					position: 'absolute',
 					top: 70,
 				}}
-			></div>
+			></div> */}
 			{Object.keys(data).map((key_val, i) => {
 				return (
 					<Card

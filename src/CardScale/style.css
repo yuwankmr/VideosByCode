@@ -1,0 +1,12 @@
+h1.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 120px;
+	letter-spacing: 0.1em;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: black;
+	text-shadow: 8px 8px lightblue;
+}

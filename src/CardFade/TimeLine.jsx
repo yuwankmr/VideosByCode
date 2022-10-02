@@ -18,14 +18,25 @@ export const HelloWorld = ({titleText, titleColor}) => {
 		<div style={{flex: 1, backgroundColor: 'white'}}>
 			<div>
 				<Sequence from={0} durationInFrames={config.fps * 5}>
-					<Title
-						titleText={
-							<h1>
-								The Top 25
-								<br></br> Ugliest Animals <br></br> on Earth
-							</h1>
-						}
-					/>
+					<h1
+						className="title"
+						style={{
+							width: config.screen_width,
+							height: config.screen_height,
+							background: 'white',
+							padding: 10,
+							fontFamily: 'Poppins',
+							fontSize: 150,
+							fontWeight: 'bold',
+							textAlign: 'center',
+							display: 'flex',
+							alignItems: 'center',
+							justifyContent: 'center',
+							textTransform: 'uppercase',
+						}}
+					>
+						The top 20 most popular video games
+					</h1>
 				</Sequence>
 				{Object.keys(data).map((key_val, i) => (
 					<Sequence
