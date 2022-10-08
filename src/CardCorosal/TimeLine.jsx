@@ -16,7 +16,7 @@ export const HelloWorld = () => {
 		});
 	}, []);
 	return (
-		<div style={{flex: 1, backgroundColor: '#000000'}}>
+		<div style={{flex: 1, backgroundColor: 'white'}}>
 			<div>
 				<Sequence
 					from={0}
@@ -27,7 +27,6 @@ export const HelloWorld = () => {
 						style={{
 							width: config.screen_width,
 							height: config.screen_height,
-							background: 'black',
 							padding: 10,
 							fontFamily: 'Poppins',
 							fontSize: 150,
@@ -38,9 +37,7 @@ export const HelloWorld = () => {
 							justifyContent: 'center',
 							textTransform: 'uppercase',
 						}}
-					>
-						The TOP biggest Planets in Our Solar System
-					</h1>
+					></h1>
 				</Sequence>
 				<Sequence
 					from={0}

@@ -32,8 +32,8 @@ export const Content = () => {
 			{Object.keys(data).map((key_val, i) => {
 				const divider = (i, ii) => {
 					return (
-						Number(data[i].value.replace(' m', '')) /
-						Number(data[ii].value.replace(' m', ''))
+						Number(data[i].value.replace(' ft', '')) /
+						Number(data[ii].value.replace(' ft', ''))
 					);
 				};
 

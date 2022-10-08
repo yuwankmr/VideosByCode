@@ -16,7 +16,7 @@ export const HelloWorld = () => {
 		});
 	}, []);
 	return (
-		<div style={{flex: 1, backgroundColor: '#ffffff'}}>
+		<div style={{flex: 1, backgroundColor: 'white'}}>
 			<div>
 				<Sequence
 					from={0}
@@ -37,9 +37,7 @@ export const HelloWorld = () => {
 							justifyContent: 'center',
 							textTransform: 'uppercase',
 						}}
-					>
-						Ben 10:Alien Force all Aliens Size Comparison
-					</h1>
+					></h1>
 				</Sequence>
 				<Sequence
 					from={0}
