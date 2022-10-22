@@ -12,12 +12,12 @@ html {
 
 .container {
 	margin: auto auto;
-	width: 850px;
+	width: 970px;
 	height: 1080px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	background: '#152236';
 	z-index: 100;
 	padding-top: 50px;
@@ -27,15 +27,14 @@ html {
 }
 .container h1 {
 	font-family: 'Poppins';
-	font-size: 50px;
+	font-size: 70px;
 	text-align: center;
 	text-transform: capitalize;
 }
 .name {
 	/* background-color: lightblue; */
 	width: 100%;
-	color: rgb(255, 255, 255);
-	text-shadow: 7px 7px 20px #000000;
+	color: rgb(0, 0, 0);
 	/* border-top: 10px solid black; */
 	/* border-right: 15px solid black; */
 }
@@ -43,18 +42,16 @@ html {
 	background-color: yellow;
 	border-radius: 24px;
 	padding: 0 50px;
-	color: black;
-	border: 10px solid yellow;
+	color: rgb(255, 255, 255);
+	/* border: 10px solid rgb(0, 0, 0); */
 	margin: 5px 0;
 }
 img {
-	border: 10px solid red;
-	margin: 20px 0;
+	margin: 10px 0;
 	border-radius: 24px;
 	height: 700px;
-	width: 500px;
+	width: 970px;
 	max-height: 700px;
-	max-width: 500px;
-	object-fit: cover;
-	box-shadow: 7px 11px 39px 0px black;
+	max-width: 870px;
+	object-fit: contain;
 }

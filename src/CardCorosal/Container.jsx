@@ -12,7 +12,7 @@ export const Content = () => {
 				display: 'flex',
 				margin: `0 ${config.screen_width}px`,
 				transform: `translateX(-${tranformX}px)`,
-				background: 'white',
+				background: '#050c18',
 				// borderLeft: '10px solid black',
 			}}
 		>
