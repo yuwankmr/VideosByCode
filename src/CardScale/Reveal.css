@@ -45,7 +45,7 @@ html {
 	width: fit-content;
 }
 img {
+	width: 800px;
 	height: 700px;
-	max-width: 1080px;
 	object-fit: contain;
 }
