@@ -16,7 +16,7 @@ export const HelloWorld = () => {
 		});
 	}, []);
 	return (
-		<div style={{flex: 1, backgroundColor: 'white'}}>
+		<div style={{flex: 1, backgroundColor: 'black'}}>
 			<div>
 				<Sequence
 					from={0}
