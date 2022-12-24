@@ -14,7 +14,7 @@ export const Content = () => {
 				display: 'flex',
 				margin: `0 ${config.screen_width}px`,
 				transform: `translateX(-${tranformX}px)`,
-				background: 'black',
+				background: 'white',
 				// borderLeft: '10px solid black',
 			}}
 		>
@@ -32,8 +32,8 @@ export const Content = () => {
 			{Object.keys(data).map((key_val, i) => {
 				const divider = (i, ii) => {
 					return (
-						Number(data[i].value.replace(' m', '')) /
-						Number(data[ii].value.replace(' m', ''))
+						Number(data[i].value.replace(' ft', '')) /
+						Number(data[ii].value.replace(' ft', ''))
 					);
 				};
 
@@ -77,7 +77,7 @@ export const Content = () => {
 								<h1 className="Value">{data[key_val].value}</h1>
 								<img src={data[key_val].img} alt="..."></img>
 							</span>
-							<h1 className="name">
+							<h1 className="name" style={{fontSize: 50}}>
 								{data[key_val].title.match(/.{1,30}\w/g)[0]}
 								{data[key_val].title.length > 30 && '...'}
 							</h1>
