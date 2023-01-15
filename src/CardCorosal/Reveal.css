@@ -55,7 +55,7 @@ img {
 	width: 500px;
 	max-height: 700px;
 	max-width: 500px;
-	object-fit: contain;
+	object-fit: cover;
 	background: white;
 	box-shadow: 7px 11px 39px 0px black;
 }
